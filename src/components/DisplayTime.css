@@ -1,0 +1,26 @@
+div.label > div{
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 25px;
+    padding: 50px;
+    width: 75%;
+    text-align: center;
+}
+
+div.label > button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 50px;
+}
+
+div.label > button:hover {
+    background-color: #ffe70c;
+}
+
+div.label {
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
