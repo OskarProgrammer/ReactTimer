@@ -66,11 +66,11 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className="tab">
             <center>Timer</center> 
 
             <center>
-              {hours}:{minutes}:{seconds}.{time}
+              {time < 100 ? `${hours}:${minutes}:${seconds}.0${time}` : `${hours}:${minutes}:${seconds}.${time}`}
             </center>
             
             <center>
